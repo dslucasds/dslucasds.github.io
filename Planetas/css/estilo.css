@@ -1,0 +1,62 @@
+body{
+	background-color: black;
+	color: lime;
+}
+h1, h2, h3{
+	color: white
+	text-shadow: 2px 2px 7px;
+}
+.Astro{
+	max-width:  500px;
+	border-radius: 50%;
+	border: 5px solid yellow;
+	display: block;
+	margin: 0 auto;
+	height: auto; 
+}
+
+.btn{
+	/*arrendondamento*/
+	border-radius: 5px;
+	text-decoration: none;
+	text-align: center;
+	color: black;
+	background-color: lightgray;
+	width: 80px;
+	display: block;
+	margin: 0 auto;
+	padding: 20px;
+	font-size: 30px;
+}
+
+.btn:hover{
+
+	box-shadow: 0 0 5px yellow;
+}
+
+ul{
+	position: sticky;
+	top: 0;
+	list-style-type: none;
+	margin: 0; 
+	padding: 0;
+	overflow: hidden;
+	background-color: DodgerBlue;
+}
+
+li{
+	float: left;
+}
+
+li a{
+	display: block;
+	background-color: deepSkyBlue;
+	font-size: 22px;
+	padding: 14px 16px;
+	text-align:  center;
+	text-decoration: none;
+}
+
+li a:hover{
+	background-color: yellow;
+}
