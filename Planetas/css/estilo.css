@@ -60,3 +60,42 @@ li a{
 li a:hover{
 	background-color: yellow;
 }
+
+.Ativo{
+	background-color: yellow;
+}
+
+.img{
+	max-width: 100px;
+}
+
+.tblMercurio{
+	background-color: #EBC8B2;
+}
+
+.tblVenus{
+	background-color: #DAA520;
+}
+
+.tblTerra{
+	background-color: blue;
+}
+
+.tblMarte{
+	background-color: red;
+}
+
+.tblJupiter{
+	background-color: #EBC8B2;
+}
+
+.tblSaturno{
+	background-color: #deb887;
+}
+
+.tblUrano{
+	background-color: #00ACEE;
+}
+.tblNetuno{
+	background-color: #800080;
+}
