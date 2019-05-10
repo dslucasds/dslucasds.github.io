@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Hello, Bootstrap world!</title>
+
+   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
+  </head>
+  <body>
+    <div class="jumbotron text-center">
+  <h1>My First Bootstrap Page</h1>
+  <p>Resize this responsive page to see the effect!</p> 
+</div>
+
+<main class="container">
+	<section class = "row">
+		<article class="col">
+
+			<h2 class="display-1">coluna 1</h2>
+			<p class= "text-primary">Conteudo coluna 1</p>
+
+			<figure id="img1" class="collapse">
+				<a href="https://pixel.nymag.com/imgs/daily/selectall/2016/10/31/31-birthday-boy.w710.h473.2x.jpg"
+					data-toggle="lightbox">
+			<img class = "img-fluid mx-auto d-block img-thumbnail" src="https://pixel.nymag.com/imgs/daily/selectall/2016/10/31/31-birthday-boy.w710.h473.2x.jpg">
+			</a>
+			</figure>
+			<button data-toggle="collapse"
+				data-target="#img1"
+				class="tbn btn-primary"> Mostrar imagem
+
+			</button>
+
+		<article class="col">
+			<h2 class="display-2">coluna 2</h2>
+			<p class= "text-danger">Conteudo coluna 2</p>
+			<figure id="img2" class="collapse">
+				<a href="https://i.pinimg.com/originals/ec/16/48/ec1648042c508f31a86d289f0bad1ac8.jpg"
+					data-toggle="lightbox">
+			<img class = "img-fluid mx-auto d-block img-thumbnail" src="https://i.pinimg.com/originals/ec/16/48/ec1648042c508f31a86d289f0bad1ac8.jpg">
+		</a>
+			</figure>
+			<button data-toggle="collapse"
+				data-target="#img2"
+				class="tbn btn-primary"> Mostrar imagem
+
+			</button>
+		</article>
+		<article class="col">
+			<h2 class="display-3">coluna 3</h2>
+			<figure id="img3" class="collapse">
+				<a href="https://res.cloudinary.com/format-magazine-production/image/upload/c_limit,w_560,h_420,f_jpg,f_auto/cursed-images-22"
+					data-toggle="lightbox">
+			<img class = "img-fluid mx-auto d-block img-thumbnail" src="https://res.cloudinary.com/format-magazine-production/image/upload/c_limit,w_560,h_420,f_jpg,f_auto/cursed-images-22">
+		</a>
+			</figure>
+			<button data-toggle="collapse"
+				data-target="#img3"
+				class="tbn btn-primary"> Mostrar imagem
+
+			</button>
+		</article>
+
+	</section>
+	
+</main>
+
+<h2>imagem top</h2>
+<img class = "img-fluid mx-auto d-block img-thumbnail" src="https://i.ytimg.com/vi/Lb_tQqWr7Rk/maxresdefault.jpg">
+
+    <h2 data-target="#imgX" data-toggle="collapse">abre e fecha</h2>
+    <div id="imgX" class="collapse">
+    <img class = "img-fluid mx-auto d-block img-thumbnail" src ="http://images3.memedroid.com/images/UPLOADED376/5b582e480dd5b.jpeg">
+</div>
+
+
+  +-  <h2>Janela modal</h2>
+
+    <!-- Button to Open the Modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+	excluir bancos de banco
+</button>
+
+<!-- The Modal -->
+<div class="modal" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">cabecalho</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        certeza q quer deletar tudo?
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">fechar</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+	<h2>exeplo de lightBox</h2>
+	<a href="https://pbs.twimg.com/media/CwC5L0-UEAAMcMe.jpg" data-toggle="lightbox">
+                <img src="https://pbs.twimg.com/media/CwC5L0-UEAAMcMe.jpg" class="img-fluid">
+            </a>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+	
+	<script type="text/javascript">
+		$(document).on('click', '[data-toggle="lightbox"]', function(event) {
+                event.preventDefault();
+                $(this).ekkoLightbox();
+            });
+        </script>
+
+
+  </body>
+</html>
